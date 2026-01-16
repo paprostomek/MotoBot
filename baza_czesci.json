@@ -3,13 +3,15 @@
     "nazwa": "Klocki Hamulcowe Przód Bosch 0 986 424 797",
     "cena": "120 PLN",
     "opis": "Wysokiej jakości klocki hamulcowe na oś przednią. Zapewniają krótką drogę hamowania i cichą pracę.",
-    "pasuje_do": ["Volkswagen Golf IV", "Audi A3 8L", "Skoda Octavia I", "Seat Leon I"]
+    "pasuje_do": ["Volkswagen Golf IV", "Audi A3 8L", "Skoda Octavia I", "Seat Leon I"],
+    "image" : "https://webcdn.intercars.eu/files/396625/0_986_424_797_%234.jpg"
   },
   {
     "nazwa": "Tarcze Hamulcowe Wentylowane Brembo 09.7011.10",
     "cena": "240 PLN",
     "opis": "Komplet dwóch tarcz wentylowanych na przód. Technologia High Carbon odporna na przegrzewanie.",
-    "pasuje_do": ["Volkswagen Golf IV", "Audi A3 8L", "Skoda Octavia I", "Seat Toledo II"]
+    "pasuje_do": ["Volkswagen Golf IV", "Audi A3 8L", "Skoda Octavia I", "Seat Toledo II"],
+    "image" : "https://e-autoparts.pl/images_products/65/0970111X.jpg"
   },
   {
     "nazwa": "Klocki Hamulcowe Tył TRW GDB1330",
@@ -149,4 +151,5 @@
     "opis": "Syntetyczny płyn hamulcowy do układów z ABS i ESP.",
     "pasuje_do": ["Uniwersalny"]
   }
+
 ]
