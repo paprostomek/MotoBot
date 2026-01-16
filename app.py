@@ -62,8 +62,8 @@ def generate_ai_response(prompt_text):
     elif "Google" in engine:
         try:
             genai.configure(api_key=google_key)
-            # Próba użycia modelu 1.5, potem fallback na Pro
-            models = ['gemini-1.5-flash', 'gemini-pro', 'gemini-1.0-pro']
+            # Próba użycia modelu 2.5 flash, potem fallback na 2.5 flash lite
+            models = ['gemini-2.5-flash', 'gemini-2.5-flash-lite']
             active_model = None
             for m in models:
                 try:
@@ -239,5 +239,6 @@ if prompt := st.chat_input("Wpisz VIN lub pytanie..."):
 
     with st.chat_message("assistant"):
         st.markdown(answer)
+
 
     st.session_state.messages.append({"role": "assistant", "content": answer})
