@@ -84,8 +84,7 @@ def generate_ai_response(prompt_text):
 def get_car_from_vin(vin: str):
     vin = vin.strip().upper()
     
-    # --- 1. MOCK (ŚCIĄGA NA ZALICZENIE) ---
-    # Tutaj wpisujemy VIN-y, które mają działać na 100% podczas prezentacji
+    # Tutaj wpisujemy VIN-y, które mają działać na 100%
     if vin == "WBA1R51050V764951":  # Twój VIN z BMW
         return "BMW Seria 1 (E87) 2004-2011"
     
@@ -148,13 +147,13 @@ collection.add(documents=docs, embeddings=embeddings, metadatas=metadatas, ids=i
 st.sidebar.success("✅ Baza gotowa!")
 
 # ==========================================
-# Funkcja chat bota (ZMODYFIKOWANA - LEPSZY STYL + PAMIĘĆ)
+# Funkcja chat bota
 # ==========================================
 def ask_bot(user_question, history, vin_context=None):
     try:
         # 1. Szukanie w bazie wektorowej (RAG)
         query_embed = embedder.encode([user_question]).tolist()
-        results = collection.query(query_embeddings=query_embed, n_results=3)
+        results = collection.query(query_embeddings=query_embed, n_results=10)
         found_text = "\n".join(results['documents'][0])
 
         # 2. Formatowanie historii rozmowy do tekstu
@@ -163,7 +162,7 @@ def ask_bot(user_question, history, vin_context=None):
             role = "KLIENT" if msg["role"] == "user" else "SPRZEDAWCA"
             history_text += f"{role}: {msg['content']}\n"
 
-        # 3. Prompt (Instrukcja dla AI) - TUTAJ JEST ZMIANA
+        # 3. Prompt (Instrukcja dla AI)
         prompt = f"""
 Jesteś profesjonalnym, uprzejmym i pomocnym ekspertem w sklepie motoryzacyjnym.
 Twoim celem jest doradzić klientowi najlepszy produkt i sprawić, by czuł się dobrze obsłużony.
@@ -188,9 +187,9 @@ DANE DO TWOJEJ DYSPOZYCJI:
 --- NOWE PYTANIE KLIENTA ---
 {user_question}
 """
-       # Nowe wywołanie (korzysta z naszej funkcji hybrydowej)
+       # Nowe wywołanie
         response_text = generate_ai_response(prompt)
-        # Ten fragment szuka nazwy produktu w odpowiedzi i wyświetla fotkę
+        # Ten fragment szuka nazwy produktu w odpowiedzi i wyświetla zdjęcie
         try:
             import json
             # Otwieramy bazę, żeby sprawdzić linki do zdjęć
@@ -202,9 +201,9 @@ DANE DO TWOJEJ DYSPOZYCJI:
                 # Warunek: Nazwa produktu jest w tekście bota ORAZ produkt ma pole "image"
                 if produkt["nazwa"] in response_text and "image" in produkt:
                     st.image(produkt["image"], caption=produkt["nazwa"], width=300)
-                    break # Wyświetlamy max 1 zdjęcie, żeby nie robić bałaganu
+                    break # Wyświetlamy max 1 zdjęcie
         except Exception as e:
-            print(f"Nie udało się załadować zdjęcia: {e}") # To tylko log dla nas
+            print(f"Nie udało się załadować zdjęcia: {e}") # log
         return response_text
     except Exception as e:
         return f"⚠️ Wystąpił błąd: {e}"
@@ -258,5 +257,6 @@ if prompt := st.chat_input("Wpisz VIN lub pytanie..."):
 
 
     st.session_state.messages.append({"role": "assistant", "content": answer})
+
 
 
