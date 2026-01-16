@@ -49,7 +49,7 @@ def generate_ai_response(prompt_text):
         try:
             client = Groq(api_key=groq_key)
             completion = client.chat.completions.create(
-                model="llama3-70b-8192", 
+                model="llama-3.3-70b-versatile", 
                 messages=[{"role": "user", "content": prompt_text}],
                 temperature=0.6,
                 max_tokens=1000
@@ -242,3 +242,4 @@ if prompt := st.chat_input("Wpisz VIN lub pytanie..."):
 
 
     st.session_state.messages.append({"role": "assistant", "content": answer})
+
