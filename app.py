@@ -174,6 +174,7 @@ ZASADY ODPOWIEDZI:
 3. Jeśli czegoś nie ma w bazie, przeproś i zaproponuj coś innego lub zapytaj o inne potrzeby.
 4. Korzystaj z HISTORII ROZMOWY, aby wiedzieć o czym mówiliście wcześniej (nie pytaj o to samo dwa razy).
 5. STOSUJ CROSS-SELLING: Jeśli klient pyta o olej, zapytaj czy potrzebuje też filtra oleju. Jeśli o klocki hamulcowe, zapytaj o stan tarcz. Bądź dobrym sprzedawcą!
+6. Jeśli podajesz nazwę produktu, pogrub ją używając takiego formatu. Jeśli podajesz cenę, napisz ją w nowej linii.
 DANE DO TWOJEJ DYSPOZYCJI:
 --- BAZA PRODUKTÓW W SKLEPIE ---
 {found_text}
@@ -189,6 +190,21 @@ DANE DO TWOJEJ DYSPOZYCJI:
 """
        # Nowe wywołanie (korzysta z naszej funkcji hybrydowej)
         response_text = generate_ai_response(prompt)
+        # Ten fragment szuka nazwy produktu w odpowiedzi i wyświetla fotkę
+        try:
+            import json
+            # Otwieramy bazę, żeby sprawdzić linki do zdjęć
+            with open('baza_czesci.json', 'r', encoding='utf-8') as f:
+                baza_produktow = json.load(f)
+            
+            # Sprawdzamy każdy produkt z bazy
+            for produkt in baza_produktow:
+                # Warunek: Nazwa produktu jest w tekście bota ORAZ produkt ma pole "image"
+                if produkt["nazwa"] in response_text and "image" in produkt:
+                    st.image(produkt["image"], caption=produkt["nazwa"], width=300)
+                    break # Wyświetlamy max 1 zdjęcie, żeby nie robić bałaganu
+        except Exception as e:
+            print(f"Nie udało się załadować zdjęcia: {e}") # To tylko log dla nas
         return response_text
     except Exception as e:
         return f"⚠️ Wystąpił błąd: {e}"
@@ -242,4 +258,5 @@ if prompt := st.chat_input("Wpisz VIN lub pytanie..."):
 
 
     st.session_state.messages.append({"role": "assistant", "content": answer})
+
 
