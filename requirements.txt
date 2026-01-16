@@ -1,0 +1,6 @@
+streamlit
+google-generativeai
+groq
+chromadb
+sentence-transformers
+requests
