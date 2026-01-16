@@ -151,5 +151,54 @@
     "opis": "Syntetyczny płyn hamulcowy do układów z ABS i ESP.",
     "pasuje_do": ["Uniwersalny"]
   }
-
+    {
+    "nazwa": "Kable Rozruchowe 400A 2.5m",
+    "cena": "45 PLN",
+    "opis": "Solidne kable rozruchowe w etui. Niezbędne przy rozładowanym akumulatorze zimą.",
+    "pasuje_do": ["Uniwersalny"],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Jumper_cables.jpg"
+  },
+  {
+    "nazwa": "Odmrażacz do szyb K2 Alaska 700ml",
+    "cena": "15 PLN",
+    "opis": "Błyskawicznie odmraża szyby i wycieraczki. Działa nawet przy -60 stopniach.",
+    "pasuje_do": ["Uniwersalny"],
+    "image": "https://k2.com.pl/img/products/K607/K2-ALASKA-700-ML-odmrazacz-do-szyb.png"
+  },
+  {
+    "nazwa": "Zimowy Płyn do Spryskiwaczy Sonax 5L",
+    "cena": "35 PLN",
+    "opis": "Nie zamarza do -20 stopni. Bezpieczny dla lakieru i reflektorów ksenonowych.",
+    "pasuje_do": ["Uniwersalny"],
+    "image": "https://m.media-amazon.com/images/I/71p-yTJaZBL._AC_SL1500_.jpg"
+  },
+  {
+    "nazwa": "Płyn do Felg K2 Roton 700ml",
+    "cena": "25 PLN",
+    "opis": "Krwawiąca felga. Skutecznie usuwa pył z klocków hamulcowych i zabrudzenia drogowe.",
+    "pasuje_do": ["Uniwersalny"],
+    "image": "https://k2.com.pl/img/products/G167/K2-ROTON-700-ML.png"
+  },
+  {
+    "nazwa": "Czernidło do opon K2 Bold 700ml",
+    "cena": "18 PLN",
+    "opis": "Przywraca głęboką czerń oponom i zabezpiecza gumę przed pękaniem. Efekt mokrej opony.",
+    "pasuje_do": ["Uniwersalny"],
+    "image": "https://k2.com.pl/img/products/K157/K2-BOLD-700-ML.png"
+  },
+  {
+    "nazwa": "Apteczka Samochodowa DIN 13164",
+    "cena": "30 PLN",
+    "opis": "Apteczka pierwszej pomocy spełniająca normy UE. Zawiera bandaże, plastry i koc ratunkowy.",
+    "pasuje_do": ["Uniwersalny"],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/23/Verbandkasten.jpg"
+  },
+  {
+    "nazwa": "Gaśnica Samochodowa 1kg BC",
+    "cena": "40 PLN",
+    "opis": "Obowiązkowe wyposażenie każdego samochodu. Ważna legalizacja na rok.",
+    "pasuje_do": ["Uniwersalny"],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Fire_extinguisher_1kg.jpg"
+  }
 ]
+
