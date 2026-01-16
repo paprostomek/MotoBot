@@ -1,0 +1,152 @@
+[
+  {
+    "nazwa": "Klocki Hamulcowe Przód Bosch 0 986 424 797",
+    "cena": "120 PLN",
+    "opis": "Wysokiej jakości klocki hamulcowe na oś przednią. Zapewniają krótką drogę hamowania i cichą pracę.",
+    "pasuje_do": ["Volkswagen Golf IV", "Audi A3 8L", "Skoda Octavia I", "Seat Leon I"]
+  },
+  {
+    "nazwa": "Tarcze Hamulcowe Wentylowane Brembo 09.7011.10",
+    "cena": "240 PLN",
+    "opis": "Komplet dwóch tarcz wentylowanych na przód. Technologia High Carbon odporna na przegrzewanie.",
+    "pasuje_do": ["Volkswagen Golf IV", "Audi A3 8L", "Skoda Octavia I", "Seat Toledo II"]
+  },
+  {
+    "nazwa": "Klocki Hamulcowe Tył TRW GDB1330",
+    "cena": "85 PLN",
+    "opis": "Standardowe klocki hamulcowe na oś tylną. Długa żywotność.",
+    "pasuje_do": ["Volkswagen Passat B5", "Audi A4 B5", "Audi A6 C5"]
+  },
+  {
+    "nazwa": "Olej Silnikowy Motul 8100 X-cess 5W40 5L",
+    "cena": "175 PLN",
+    "opis": "Syntetyczny olej silnikowy do silników benzynowych i Diesla. Spełnia normy VW 502.00/505.00.",
+    "pasuje_do": ["Uniwersalny", "Volkswagen Golf", "BMW E46", "Audi A4", "Opel Astra"]
+  },
+  {
+    "nazwa": "Olej Silnikowy Castrol EDGE 5W30 LL 4L",
+    "cena": "190 PLN",
+    "opis": "Olej typu LongLife. Zapewnia maksymalną wydajność silnika. Dedykowany do nowoczesnych jednostek.",
+    "pasuje_do": ["Uniwersalny", "Volkswagen Passat B6", "Audi A4 B8", "BMW E90"]
+  },
+  {
+    "nazwa": "Olej Półsyntetyczny Valvoline MaxLife 10W40 4L",
+    "cena": "110 PLN",
+    "opis": "Olej stworzony specjalnie dla silników z dużym przebiegiem (powyżej 150 tys. km). Regeneruje uszczelki.",
+    "pasuje_do": ["Uniwersalny", "Volkswagen Golf III", "Audi 80", "Opel Vectra B"]
+  },
+  {
+    "nazwa": "Filtr Oleju Mann-Filter W 712/52",
+    "cena": "35 PLN",
+    "opis": "Wkręcany filtr oleju najwyższej jakości. Skutecznie usuwa zanieczyszczenia.",
+    "pasuje_do": ["Volkswagen Golf IV 1.4/1.6", "Skoda Fabia I", "Seat Ibiza III"]
+  },
+  {
+    "nazwa": "Filtr Powietrza Filtron AP 139/2",
+    "cena": "42 PLN",
+    "opis": "Prostokątny filtr powietrza. Polski producent, bardzo dobry stosunek jakości do ceny.",
+    "pasuje_do": ["Volkswagen Passat B5", "Audi A4 B5", "Skoda Superb I"]
+  },
+  {
+    "nazwa": "Filtr Kabinowy Węglowy Knecht LAK 63",
+    "cena": "65 PLN",
+    "opis": "Filtr przeciwpyłkowy z węglem aktywnym. Chroni przed spalinami i brzydkimi zapachami.",
+    "pasuje_do": ["BMW Serii 3 E46", "BMW X3 E83"]
+  },
+  {
+    "nazwa": "Amortyzatory Przód Kayaba (KYB) Excel-G 333713",
+    "cena": "320 PLN",
+    "opis": "Amortyzatory gazowe dwururowe na oś przednią. Poprawiają stabilność prowadzenia.",
+    "pasuje_do": ["Toyota Yaris I", "Toyota Yaris Verso"]
+  },
+  {
+    "nazwa": "Zestaw Wahaczy Przód Master-Sport",
+    "cena": "650 PLN",
+    "opis": "Kompletny zestaw zawieszenia wielowahaczowego (wahacze, łączniki, końcówki). Wzmocniona konstrukcja.",
+    "pasuje_do": ["Audi A4 B5", "Volkswagen Passat B5", "Audi A6 C5"]
+  },
+  {
+    "nazwa": "Świeca Zapłonowa NGK BKR6E-11",
+    "cena": "18 PLN",
+    "opis": "Niezawodna świeca zapłonowa V-Line. Cena za sztukę. Wymaga wymiany co 30-60 tys. km.",
+    "pasuje_do": ["Toyota Corolla E12", "Honda Civic VII", "Mazda 3"]
+  },
+  {
+    "nazwa": "Akumulator Varta Silver Dynamic 74Ah 750A",
+    "cena": "480 PLN",
+    "opis": "Mocny akumulator klasy premium. Idealny do diesli i aut z bogatym wyposażeniem.",
+    "pasuje_do": ["Uniwersalny", "Volkswagen Passat 1.9 TDI", "Ford Mondeo MK4", "BMW E60"]
+  },
+  {
+    "nazwa": "Żarówki H7 Philips RacingVision GT200 +200%",
+    "cena": "99 PLN",
+    "opis": "Komplet 2 sztuk. Najmocniejsze żarówki halogenowe dopuszczone do ruchu. Do 200% jaśniejsze światło.",
+    "pasuje_do": ["Uniwersalny", "Reflektory H7"]
+  },
+  {
+    "nazwa": "Wycieraczki Bosch Aerotwin A555S (Zestaw)",
+    "cena": "89 PLN",
+    "opis": "Płaskie wycieraczki bezszkieletowe. Dedykowany zestaw na przednią szybę.",
+    "pasuje_do": ["Volkswagen Golf V", "Volkswagen Golf VI", "Skoda Yeti"]
+  },
+  {
+    "nazwa": "Płyn Chłodniczy Borygo Nowy Różowy 5L",
+    "cena": "45 PLN",
+    "opis": "Wielosezonowy płyn do chłodnic aluminiowych. Temperatura zamarzania -35C.",
+    "pasuje_do": ["Uniwersalny"]
+  },
+  {
+    "nazwa": "Rozrząd Kompletny INA z pompą wody 530 0201 30",
+    "cena": "450 PLN",
+    "opis": "Zestaw paska rozrządu z rolkami i pompą wody. Niezbędny przy wymianie rozrządu w silnikach TDI.",
+    "pasuje_do": ["Volkswagen Golf IV 1.9 TDI", "Audi A3 1.9 TDI", "Seat Leon 1.9 TDI"]
+  },
+  {
+    "nazwa": "Łącznik Stabilizatora Lemforder 26774 01",
+    "cena": "60 PLN",
+    "opis": "Łącznik stabilizatora przedniego. Marka pierwszego montażu (OEM).",
+    "pasuje_do": ["Ford Focus MK2", "Volvo C30", "Mazda 3"]
+  },
+  {
+    "nazwa": "Koło Dwumasowe LuK 415 0112 10",
+    "cena": "1200 PLN",
+    "opis": "Koło zamachowe dwumasowe. Eliminuje drgania skrętne w układzie napędowym.",
+    "pasuje_do": ["Volkswagen Passat B6 2.0 TDI", "Audi A4 B7 2.0 TDI"]
+  },
+  {
+    "nazwa": "Sprzęgło Kompletne Valeo 826317",
+    "cena": "450 PLN",
+    "opis": "Tarcza, docisk i łożysko oporowe. Zestaw do manualnej skrzyni biegów.",
+    "pasuje_do": ["Toyota Yaris II 1.0", "Toyota Aygo", "Citroen C1"]
+  },
+  {
+    "nazwa": "Cewka Zapłonowa Delphi GN10240",
+    "cena": "150 PLN",
+    "opis": "Cewka zapłonowa listwowa. Częsta usterka w silnikach Opla.",
+    "pasuje_do": ["Opel Astra H 1.6", "Opel Zafira B", "Opel Vectra C"]
+  },
+  {
+    "nazwa": "Termostat Wahler 410705.87D",
+    "cena": "45 PLN",
+    "opis": "Termostat układu chłodzenia z uszczelką. Temperatura otwarcia 87 stopni.",
+    "pasuje_do": ["Volkswagen Golf II", "Volkswagen Golf III", "Audi 80 B3"]
+  },
+  {
+    "nazwa": "Tłumik Końcowy Bosal 105-139",
+    "cena": "180 PLN",
+    "opis": "Tłumik wydechowy tylny. Stal aluminiowana odporna na korozję.",
+    "pasuje_do": ["Opel Astra G Hatchback"]
+  },
+  {
+    "nazwa": "Sonda Lambda Bosch 0 258 006 027",
+    "cena": "210 PLN",
+    "opis": "Uniwersalna sonda lambda 4-przewodowa. Odpowiada za skład mieszanki paliwowej.",
+    "pasuje_do": ["Uniwersalny", "Fiat Punto II", "Renault Clio II"]
+  },
+  {
+    "nazwa": "Płyn Hamulcowy K2 DOT 4 500ml",
+    "cena": "15 PLN",
+    "opis": "Syntetyczny płyn hamulcowy do układów z ABS i ESP.",
+    "pasuje_do": ["Uniwersalny"]
+  }
+]
